@@ -17,6 +17,7 @@ from dotenv import dotenv_values
 
 from pathlib import Path # to handle file paths
 
+""" Load environment variables from .env file """
 # Get the directory where THIS script lives
 BASE_DIR = Path(__file__).resolve().parent
 
